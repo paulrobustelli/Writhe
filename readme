@@ -1,1 +1,33 @@
 WRITHE!!!!!!!
+Info 
+Writhe.1.py is the updated version script that will, given a trajectory, topology file, outdir, writhe cluster (kmeans), contacts cluster (kmeans) in that order. To run the script, copy it to a folder with the topology and trajectory file. 
+
+The file gives us: 
+- Saved Plots and trajectories
+- Plots include Eigenvalue 1 and 2 weights, average matrices shown by colormapping values, free energy, and kmeans cluster
+- Use the center.txt for locating where each basin corresponds to
+- Use the pdb+kmeans_writhe_centroid_step.txt for visualizing on vmd, where the first term is the centroid index for the basin in order of basins
+
+* note that all trajectories for basins were deleted on this branch because of the size *
+
+Here are the paths to the trajectories: 
+
+Abeta40 Force Fields:
+
+`/dartfs-hpc/rc/home/5/f004nf5/labhome/Kaushik/Ab40/Ab40.pdb` 
+`/dartfs-hpc/rc/home/5/f004nf5/labhome/Kaushik/Ab40/a99SBdisp/Ab40-a99SBdisp-Traj.dcd`
+`/dartfs-hpc/rc/home/5/f004nf5/labhome/Kaushik/Ab40/Charmm36m/Charmm36m-Traj.dcd`
+`/dartfs-hpc/rc/home/5/f004nf5/labhome/Kaushik/Ab40/a03ws/Ab40-a03ws.dcd`
+
+drkN SH3: 
+
+`/dartfs-hpc/rc/home/5/f004nf5/labhome/Kaushik/drkN/drkN.pdb`
+`/dartfs-hpc/rc/home/5/f004nf5/labhome/Kaushik/drkN/a99SBdisp/drkN-a99SBdisp-Traj.dcd`
+`/dartfs-hpc/rc/home/5/f004nf5/labhome/Kaushik/drkN/a03ws/Traj/drkN-a03ws.dcd`
+`/dartfs-hpc/rc/home/5/f004nf5/labhome/Kaushik/drkN/c22star-TIP3P/drkN_c22star.dcd`
+`/dartfs-hpc/rc/home/5/f004nf5/labhome/Kaushik/drkN/Charmm36m/drkn-Charmm36m.dcd` 
+
+asyn: 
+`/dartfs-hpc/rc/lab/R/RobustelliP/DESRES_Trajectories/biorxiv2021-10398286-asyn_cterm_apo_no-water/asyn_Cterm_apo.all.dcd`
+`/dartfs-hpc/rc/lab/R/RobustelliP/DESRES_Trajectories/biorxiv2021-10398286-asyn_cterm_apo_no-water/asyn.cterm.mae2pdb.pdb`
+
